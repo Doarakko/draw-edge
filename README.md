@@ -12,7 +12,7 @@ Draw Yu-Gi-Oh! Card on Slack.
 
 ## Usage
 
-### Deploy to Clooudflare Workers
+### Deploy to Cloudflare Workers
 
 1. Copy env file and enter your environment variables.
 
@@ -26,7 +26,7 @@ Draw Yu-Gi-Oh! Card on Slack.
     wrangler deploy
     ```
 
-1. Set environmental variables to Clooudflare
+1. Set environmental variables to Cloudflare
 
     ```sh
     wrangler secret put SLACK_BOT_TOKEN
