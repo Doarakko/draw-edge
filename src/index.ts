@@ -1,4 +1,4 @@
-import { SlackApp, SlackEdgeAppEnv } from 'slack-cloudflare-workers'
+import { SlackApp, type SlackEdgeAppEnv } from 'slack-cloudflare-workers'
 
 export default {
   async fetch(
