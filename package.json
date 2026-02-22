@@ -2,6 +2,7 @@
   "name": "draw-edge",
   "version": "0.0.0",
   "devDependencies": {
+    "@biomejs/biome": "2.4.4",
     "@cloudflare/workers-types": "^4.20231025.0",
     "typescript": "^5.2.2",
     "vitest": "^0.34.6",
@@ -11,7 +12,9 @@
   "scripts": {
     "start": "wrangler dev",
     "deploy": "wrangler deploy",
-    "test": "vitest"
+    "test": "vitest",
+    "lint": "biome check .",
+    "format": "biome format --write ."
   },
   "dependencies": {
     "slack-cloudflare-workers": "^0.5.2"
