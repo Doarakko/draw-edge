@@ -2,8 +2,8 @@
   "name": "draw-edge",
   "version": "0.0.0",
   "devDependencies": {
-    "@biomejs/biome": "2.4.4",
-    "@cloudflare/workers-types": "^4.20231025.0",
+    "@biomejs/biome": "2.4.10",
+    "@cloudflare/workers-types": "^4.20260401.1",
     "typescript": "^5.2.2",
     "wrangler": "4.67.0"
   },
